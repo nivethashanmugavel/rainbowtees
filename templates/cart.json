@@ -1,1 +1,118 @@
-{"sections":{"cart-items":{"type":"main-cart-items","settings":{"padding_top":36,"padding_bottom":36}},"cart-footer":{"type":"main-cart-footer","blocks":{"subtotal":{"type":"subtotal","settings":{}},"buttons":{"type":"buttons","settings":{}}},"block_order":["subtotal","buttons"],"settings":{}},"featured-collection":{"type":"featured-collection","settings":{"title":"Featured collection","heading_size":"h2","collection":"all","products_to_show":4,"columns_desktop":4,"show_view_all":true,"color_scheme":"background-1","image_ratio":"square","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["cart-items","cart-footer","featured-collection"]}
+{
+  "sections": {
+    "44a4cd4c-05d4-4468-a0d8-10acd1314a72": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"coyaka-upsell-progress-bar\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "25a54620-e236-4807-8f00-41756bdcc418": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16167094517945__25a54620-e236-4807-8f00-41756bdcc418-1678897230d79566bf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16167094517945__25a54620-e236-4807-8f00-41756bdcc418-1678897230d79566bf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16167094517945__25a54620-e236-4807-8f00-41756bdcc418-1678897230d79566bf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16167094517945__25a54620-e236-4807-8f00-41756bdcc418-1678897230d79566bf-0",
+        "template--16167094517945__25a54620-e236-4807-8f00-41756bdcc418-1678897230d79566bf-1",
+        "template--16167094517945__25a54620-e236-4807-8f00-41756bdcc418-1678897230d79566bf-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "44a4cd4c-05d4-4468-a0d8-10acd1314a72",
+    "cart-items",
+    "cart-footer",
+    "featured-collection",
+    "25a54620-e236-4807-8f00-41756bdcc418"
+  ]
+}
